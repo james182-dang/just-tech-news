@@ -92,7 +92,7 @@ router.put('/upvote', (req, res) => {
               console.log(err);
               res.status(400).json(err);
           });
-    }
+    })
 });
 
 // Update a post
